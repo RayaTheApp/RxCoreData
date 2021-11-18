@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
   name: "RxCoreData",
   platforms: [
-    .iOS(.v9),
+    .iOS(.v13),
     .macOS(.v10_12)
   ],
   products: [
