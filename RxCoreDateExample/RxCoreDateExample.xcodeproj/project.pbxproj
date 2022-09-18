@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,17 +13,21 @@
 		C4A50F17229591AF0037E608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A50F16229591AF0037E608 /* Assets.xcassets */; };
 		C4A50F1A229591AF0037E608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A50F18229591AF0037E608 /* LaunchScreen.storyboard */; };
 		C4A50F25229591B00037E608 /* RxCoreDateExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A50F24229591B00037E608 /* RxCoreDateExampleTests.swift */; };
-		C4A50F312295935A0037E608 /* RxCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A50F302295935A0037E608 /* RxCoreData.framework */; };
-		C4A50F34229593750037E608 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A50F32229593750037E608 /* RxSwift.framework */; };
-		C4A50F35229593750037E608 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A50F33229593750037E608 /* RxCocoa.framework */; };
-		C4A50F37229593DB0037E608 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4A50F33229593750037E608 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C4A50F38229593DB0037E608 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4A50F32229593750037E608 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C4A50F3D22969BD00037E608 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4A50F3B22969BD00037E608 /* Model.xcdatamodeld */; };
 		C4A50F4022969BE20037E608 /* Event+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A50F3E22969BE20037E608 /* Event+Extensions.swift */; };
 		C4A50F4122969BE20037E608 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A50F3F22969BE20037E608 /* Event.swift */; };
-		C4A50F6022969DC40037E608 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4A50F5D22969DB00037E608 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C4A50F6122969DC40037E608 /* Differentiator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4A50F5E22969DB00037E608 /* Differentiator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C4A50F6222969DC40037E608 /* RxDataSources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4A50F5F22969DB00037E608 /* RxDataSources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F64D885528D7909900FCDF5A /* RxDataSources.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D884F28D7909900FCDF5A /* RxDataSources.xcframework */; };
+		F64D885628D7909900FCDF5A /* RxDataSources.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D884F28D7909900FCDF5A /* RxDataSources.xcframework */; };
+		F64D885728D7909900FCDF5A /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D885028D7909900FCDF5A /* RxSwift.xcframework */; };
+		F64D885828D7909900FCDF5A /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D885028D7909900FCDF5A /* RxSwift.xcframework */; };
+		F64D885928D7909900FCDF5A /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D885128D7909900FCDF5A /* RxBlocking.xcframework */; };
+		F64D885A28D7909900FCDF5A /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D885128D7909900FCDF5A /* RxBlocking.xcframework */; };
+		F64D885B28D7909900FCDF5A /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D885228D7909900FCDF5A /* RxCocoa.xcframework */; };
+		F64D885C28D7909900FCDF5A /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D885228D7909900FCDF5A /* RxCocoa.xcframework */; };
+		F64D885D28D7909900FCDF5A /* RxTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D885328D7909900FCDF5A /* RxTest.xcframework */; };
+		F64D885E28D7909900FCDF5A /* RxTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D885328D7909900FCDF5A /* RxTest.xcframework */; };
+		F64D885F28D7909900FCDF5A /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D885428D7909900FCDF5A /* RxRelay.xcframework */; };
+		F64D886028D7909900FCDF5A /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D885428D7909900FCDF5A /* RxRelay.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,11 +47,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C4A50F37229593DB0037E608 /* RxCocoa.framework in Embed Frameworks */,
-				C4A50F38229593DB0037E608 /* RxSwift.framework in Embed Frameworks */,
-				C4A50F6022969DC40037E608 /* RxRelay.framework in Embed Frameworks */,
-				C4A50F6122969DC40037E608 /* Differentiator.framework in Embed Frameworks */,
-				C4A50F6222969DC40037E608 /* RxDataSources.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,15 +64,15 @@
 		C4A50F20229591B00037E608 /* RxCoreDateExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxCoreDateExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A50F24229591B00037E608 /* RxCoreDateExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCoreDateExampleTests.swift; sourceTree = "<group>"; };
 		C4A50F26229591B00037E608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4A50F302295935A0037E608 /* RxCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4A50F32229593750037E608 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		C4A50F33229593750037E608 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		C4A50F3C22969BD00037E608 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		C4A50F3E22969BE20037E608 /* Event+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event+Extensions.swift"; sourceTree = "<group>"; };
 		C4A50F3F22969BE20037E608 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		C4A50F5D22969DB00037E608 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = ../Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
-		C4A50F5E22969DB00037E608 /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = ../Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
-		C4A50F5F22969DB00037E608 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = ../Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
+		F64D884F28D7909900FCDF5A /* RxDataSources.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxDataSources.xcframework; path = ../Carthage/Build/RxDataSources.xcframework; sourceTree = "<group>"; };
+		F64D885028D7909900FCDF5A /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = ../Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		F64D885128D7909900FCDF5A /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = ../Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
+		F64D885228D7909900FCDF5A /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = ../Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		F64D885328D7909900FCDF5A /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = ../Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
+		F64D885428D7909900FCDF5A /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = ../Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +80,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4A50F34229593750037E608 /* RxSwift.framework in Frameworks */,
-				C4A50F35229593750037E608 /* RxCocoa.framework in Frameworks */,
-				C4A50F312295935A0037E608 /* RxCoreData.framework in Frameworks */,
+				F64D885B28D7909900FCDF5A /* RxCocoa.xcframework in Frameworks */,
+				F64D885728D7909900FCDF5A /* RxSwift.xcframework in Frameworks */,
+				F64D885528D7909900FCDF5A /* RxDataSources.xcframework in Frameworks */,
+				F64D885F28D7909900FCDF5A /* RxRelay.xcframework in Frameworks */,
+				F64D885D28D7909900FCDF5A /* RxTest.xcframework in Frameworks */,
+				F64D885928D7909900FCDF5A /* RxBlocking.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +93,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F64D885628D7909900FCDF5A /* RxDataSources.xcframework in Frameworks */,
+				F64D885C28D7909900FCDF5A /* RxCocoa.xcframework in Frameworks */,
+				F64D885A28D7909900FCDF5A /* RxBlocking.xcframework in Frameworks */,
+				F64D886028D7909900FCDF5A /* RxRelay.xcframework in Frameworks */,
+				F64D885E28D7909900FCDF5A /* RxTest.xcframework in Frameworks */,
+				F64D885828D7909900FCDF5A /* RxSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,12 +152,12 @@
 		C4A50F2F2295935A0037E608 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C4A50F33229593750037E608 /* RxCocoa.framework */,
-				C4A50F32229593750037E608 /* RxSwift.framework */,
-				C4A50F302295935A0037E608 /* RxCoreData.framework */,
-				C4A50F5D22969DB00037E608 /* RxRelay.framework */,
-				C4A50F5E22969DB00037E608 /* Differentiator.framework */,
-				C4A50F5F22969DB00037E608 /* RxDataSources.framework */,
+				F64D885128D7909900FCDF5A /* RxBlocking.xcframework */,
+				F64D885228D7909900FCDF5A /* RxCocoa.xcframework */,
+				F64D884F28D7909900FCDF5A /* RxDataSources.xcframework */,
+				F64D885428D7909900FCDF5A /* RxRelay.xcframework */,
+				F64D885028D7909900FCDF5A /* RxSwift.xcframework */,
+				F64D885328D7909900FCDF5A /* RxTest.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
